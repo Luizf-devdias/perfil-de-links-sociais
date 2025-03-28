@@ -29,7 +29,7 @@ Este é um projeto simples e estiloso desenvolvido com **HTML** e **CSS** utiliz
 
 ## 🚀 Como Visualizar o Projeto
 
-Você pode acessar o projeto diretamente [clicando aqui](#) 🔗 ou seguir as instruções abaixo para rodar localmente:
+Você pode acessar o projeto diretamente https://luizf-devdias.github.io/perfil-de-links-sociais/ 🔗 ou seguir as instruções abaixo para rodar localmente:
 
 1. Clone o repositório:
    ```bash
