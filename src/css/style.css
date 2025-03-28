@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: 'inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    color: #ffffff;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 0;
+    border-radius: 10px;
+}
+
+.container .cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .cabecalho img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.container .cabecalho .meu-nome {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.container .cabecalho .localizacao {
+    color: hsl(75, 94%, 57%);
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.container .cabecalho .sobre-voce {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.container .links nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.container .links button {
+    background-color: hsl(0, 0%, 20%);
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.container .links a {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.container .links button:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.container .links button:hover a {
+    color: #000000;
+}
+
+
